@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>storyHaven books website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+
+    <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/book1.css">
+    
+    
+
+</head>
+<body>
+    
+<!-------header section starts----->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Story Haven </a>
+
+        <form action="" class="search-form" onsubmit="return false;">
+            <input type="search" id="search-box" placeholder="search here..." onkeyup="searchBooks()">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="wishlist.html" class="fas fa-heart"><span id="wishlist-count">0</span></a>
+            <a href="cart.html"><div id="cart-btn" class="fas fa-shopping-cart" > <span id="cart-count">0</span></div></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+ 
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html">About Us</a>
+            <a href="index.html">featured</a>
+            <a href="index.html">Category</a>
+            <a href="index.html">Arrivals</a>
+            <a href="index.html">Testimonial</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#about" class="fas fa-about"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#categories" class="fas fa-book"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#testimonial" class="fas fa-comments"></a>
+    
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="username" class="box" placeholder="enter your email" id="username">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+</div>
+<div class="container">
+    <div class="item">
+
+      <!--------------Fiction books start-->
+
+        <div class="fiction" id="fiction">
+
+            <h1 class="heading"><span>Fiction Books</span> </h1>
+        
+            <div class="swiper fiction-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide box" data-title="Black hearts">
+                        
+
+                        <div class="content" data-key="1">
+                            <div class="image">
+                          <img src="img/fiction1.png" alt="">
+                            </div>
+                          <h3>Black hearts</h3>
+                           <div class="price">399/-<span>499/-</span></div>
+                            <a href="fiction1.html" class="button">View Details</a>
+                         </div>
+
+                    </div>
+                    <div class="swiper-slide box" data-title="Angel of Death" >
+                        
+                        <div class="image">
+                            <img src="img/fiction2.png" alt="">
+                        </div>
+                        <div class="content"data-key="2" >
+                            <h3>Angel of Death</h3>
+                            <div class="price">499/-<span>599/-</span></div>
+                            <a href="fiction2.html" class="button">View Details</a>
+
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="If You Knew">
+                        
+                        <div class="image">
+                            <img src="img/fiction3.png" alt="">
+                        </div>
+                        <div class="content"  data-key="3" >
+                            <h3>If You Knew</h3>
+                            <div class="price">599/- <span>699/-</span></div>
+                            <a href="fiction4.html" class="button">View Details</a>
+                            
+
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="The Race to the Blackened nevers">
+                        
+                        <div class="image">
+                            <img src="img/fiction4.png" alt="">
+                        </div>
+                        <div class="content"  data-key="4" >
+                            <h3>The Race to the Blackened nevers</h3>
+                            <div class="price">493/- <span> 599/-</span></div>
+                            
+                            <a href="fiction7.html" class="button">View Details</a>
+                            
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="We'll never Tell">
+                        
+                        <div class="image">
+                            <img src="img/fiction5.png" alt="">
+                        </div>
+                        <div class="content"  data-key="5" >
+                            <h3>We'll never Tell</h3>
+                            <div class="price">346/- <span>455/-</span></div>
+                            
+                            <a href="fiction5.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="Anya and the Nightingale">
+                        
+                        <div class="image">
+                            <img src="img/fiction6.png" alt="">
+                        </div>
+                        <div class="content"  data-key="6" >
+                            <h3>Anya and the Nightingale</h3>
+                            <div class="price">455/- <span>555/-</span></div>
+                            <a href="fiction6.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    
+        
+                </div>
+        
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+        
+            </div>
+        
+        </div>
+        <!-----------fiction books ends------>
+        
+        
+        <!------------Non-fiction books start------>
+        
+        <div class="non-fiction" id="non-fiction">
+        
+            <h1 class="heading"> <span>Non-Fiction Books</span></h1>
+            
+        
+            <div class="swiper non-fiction-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide box" data-title="The Eduction Challenges">
+                        <div class="image">
+                            <img src="img/non-fiction1.png" alt="">
+                        </div>
+                        <div class="content" data-key="7">
+                            <h3>The Eduction Challenges</h3>
+                            <div class="price">599/- <span>799/-</span></div>
+                            <a href="nonfiction1.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="Renegades">
+                        <div class="image">
+                            <img src="img/non-fiction2.png" alt="">
+                        </div>
+                        <div class="content"  data-key="8">
+                            <h3>Renegades</h3>
+                            <div class="price">645/- <span>789/-</span></div>
+                            <a href="nonfiction2.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="Lost In The Never Woods">
+                        <div class="image">
+                            <img src="img/non-fiction3.png" alt="">
+                        </div>
+                        <div class="content"  data-key="9">
+                            <h3>Lost In The Never Woods</h3>
+                            <div class="price">455/- <span>555/-</span></div>
+                            <a href="nonfiction4.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="The Minding Minds">
+                        <div class="image">
+                            <img src="img/non-fiction4.png" alt="">
+                        </div>
+                        <div class="content"  data-key="10">
+                            <h3>The Minding Minds</h3>
+                            <div class="price">345/- <span>566/-</span></div>
+                            <a href="nonfiction3.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="The Tree Of Thinking Words">
+                        <div class="image">
+                            <img src="img/non-fiction5.png" alt="">
+                        </div>
+                        <div class="content"  data-key="11">
+                            <h3>The Tree Of Thinking Words</h3>
+                            <div class="price">456/- <span>645/-</span></div>
+                            <a href="nonfiction5.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="The Finance Field">
+                        <div class="image">
+                            <img src="img/non-fiction6.png" alt="">
+                        </div>
+                        <div class="content"  data-key="12">
+                            <h3>The Finance Field</h3>
+                            <div class="price">556/-<span>699/-</span></div>
+                            <a href="nonfiction6.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    
+        
+                </div>
+        
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+        
+            </div>
+        
+        </div>
+        
+        <!------------Non-fiction books ends------>
+        
+        <!------------Fantasy books start------>
+        
+        <div class="Fantasy" id="Fantasy">
+        
+            <h1 class="heading"> <span>Fantasy Books</span></h1>
+            
+        
+            <div class="swiper Fantasy-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide box" data-title="The Black Bird Oracle">
+                        
+                        <div class="image">
+                            <img src="img/fantasy1.png" alt="">
+                        </div>
+                        <div class="content"  data-key="13">
+                            <h3>The Black Bird Oracle</h3>
+                            <div class="price">599/-<span>699/-</span></div>
+                            <a href="fantasy1.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="The Night Ends With Fire">
+                       
+                        <div class="image">
+                            <img src="img/fantasy2.png" alt="">
+                        </div>
+                        <div class="content" data-key="14">
+                            <h3>The Night Ends With Fire</h3>
+                            <div class="price">499/- <span>699/-</span></div>
+                            <a href="fantasy2.html" class="button">add to cart</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="The Queen Of Nothing">
+                        
+                        <div class="image">
+                            <img src="img/fantasy3.png" alt="">
+                        </div>
+                        <div class="content" data-key="15">
+                            <h3>The Queen Of Nothing</h3>
+                            <div class="price">399/- <span>499/-</span></div>
+                            <a href="fantasy3.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="Brave Heart">
+                        
+                        <div class="image">
+                            <img src="img/fantasy4.png" alt="">
+                        </div>
+                        <div class="content"  data-key="16">
+                            <h3>Brave Heart</h3>
+                            <div class="price">344/- <span>455/-</span></div>
+                            <a href="fantasy4.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="To Dream of White And Gold">
+                        
+                        <div class="image">
+                            <img src="img/fantasy5.png" alt="">
+                        </div>
+                        <div class="content"  data-key="17">
+                            <h3>To Dream of White And Gold</h3>
+                            <div class="price">445/- <span>559/-</span></div>
+                            <a href="fantasy5.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="The Hurricane War">
+                        
+                        <div class="image">
+                            <img src="img/fantasy6.png" alt="">
+                        </div>
+                        <div class="content" data-key="18">
+                            <h3>The Hurricane War</h3>
+                            <div class="price">355/-<span>455/-</span></div>
+                            <a href="fantasy6.html" class="button">View Details</a>
+                        </div>
+
+                    </div>
+                        
+        
+                </div>
+        
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+        
+            </div>
+        
+        </div>
+        
+        <!------------Science Fiction books ends------>
+        
+        <div class="Science-Fiction" id="Science-Fiction">
+        
+            <h1 class="heading"> <span>Science Fiction Books</span></h1>
+            
+        
+            <div class="swiper Science-Fiction-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide box" data-title="Infinite Worlds">
+                        
+                        <div class="image">
+                            <img src="img/sci-fi1.png" alt="">
+                        </div>
+                        <div class="content"  data-key="19">
+                            <h3>Infinite Worlds</h3>
+                            <div class="price">255/- <span>355/-</span></div>
+                            <a href="sci-fiction1.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="Dune">
+                        
+                        <div class="image">
+                            <img src="img/sci-fi2.png" alt="">
+                        </div>
+                        <div class="content"  data-key="20">
+                            <h3>Dune</h3>
+                            <div class="price">356/-<span>456/-</span></div>
+                            <a href="sci-fiction2.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="The Warden">
+                        
+                        <div class="image">
+                            <img src="img/sci-fi3.png" alt="">
+                        </div>
+                        <div class="content"  data-key="21">
+                            <h3>The Warden</h3>
+                            <div class="price">366/- <span>466/-</span></div>
+                            <a href="sci-fiction3.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="The Last Watch">
+                        
+                        <div class="image">
+                            <img src="img/sci-fi4.png" alt="">
+                        </div>
+                        <div class="content"  data-key="22">
+                            <h3>The Last Watch</h3>
+                            <div class="price">433/-<span>533/-</span></div>
+                            <a href="sci-fiction4.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="The Expanse">
+                       
+                       
+                        <div class="content"  data-key="23">
+                            <div class="image">
+                                <img src="img/sci-fi5.png" alt="">
+                            </div>
+                            <h3>The Expanse</h3>
+                            <div class="price">422/- <span>522/-</span></div>
+                            <a href="sci-fiction5.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="Solaris">
+                        
+                        <div class="image">
+                            <img src="img/sci-fi6.png" alt="">
+                        </div>
+                        <div class="content"  data-key="24">
+                            <h3>Solaris</h3>
+                            <div class="price">399/-<span>499/-</span></div>
+                            <a href="sci-fiction6.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+        
+                </div>
+        
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+        
+            </div>
+        
+        </div>
+        
+        <!------------Science Fiction books ends------>
+        
+        
+        <!------------Romance books ends------>
+        
+        <div class="Romance" id="Romance">
+        
+            <h1 class="heading"> <span>Romance Books</span></h1>
+            
+        
+            <div class="swiper Romance-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide box" data-title="Twisted Love">
+                        
+                        <div class="image">
+                            <img src="img/romance1.png" alt="">
+                        </div>
+                        <div class="content"  data-key="25">
+                            <h3>Twisted Love</h3>
+                            <div class="price">599/- <span>699/-</span></div>
+                            <a href="romance1.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="King Of Wrath">
+                        
+                        <div class="image">
+                            <img src="img/romance2.png" alt="">
+                        </div>
+                        <div class="content"  data-key="26" data-title="King Of Wrath">
+                            <h3>King Of Wrath</h3>
+                            <div class="price">488/- <span>599/-</span></div>
+                            <a href="romance2.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="The Way I Used To Be">
+                        
+                        <div class="image">
+                            <img src="img/romance3.png" alt="">
+                        </div>
+                        <div class="content"  data-key="27">
+                            <h3>The Way I Used To Be</h3>
+                            <div class="price">399/- <span>499/-</span></div>
+                            <a href="romance3.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="I'll Always Be With You">
+                        
+                        <div class="image">
+                            <img src="img/romance4.png" alt="">
+                        </div>
+                        <div class="content"  data-key="28">
+                            <h3>I'll Always Be With You</h3>
+                            <div class="price">499/-<span>599/-</span></div>
+                            <a href="romance4.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="It Starts With Us">
+                        
+                        <div class="image">
+                            <img src="img/romance5.png" alt="">
+                        </div>
+                        <div class="content"  data-key="29">
+                            <h3>It Starts With Us</h3>
+                            <div class="price">399/-<span>455/-</span></div>
+                            <a href="romance5.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="It Ends With US">
+                        
+                        <div class="image">
+                            <img src="img/romance6.png" alt="">
+                        </div>
+                        <div class="content"  data-key="30">
+                            <h3>It Ends With US</h3>
+                            <div class="price">490/-<span>590/-</span></div>
+                            <a href="romance6.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+        
+                </div>
+        
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+        
+            </div>
+        
+        </div>
+        
+        <!------------Romance books ends------>
+        
+        <!------------Mystery books ends------>
+        
+        <div class="Mystery" id="Mystery">
+        
+            <h1 class="heading"> <span>Mystery/Thriller Books</span></h1>
+            
+        
+            <div class="swiper Mystery-slider">
+        
+                <div class="swiper-wrapper">
+        
+                    <div class="swiper-slide box" data-title="Tell Me What Really Happened">
+                       
+                        <div class="image">
+                            <img src="img/mystery1.png" alt="">
+                        </div>
+                        <div class="content"  data-key="31">
+                            <h3>Tell Me What Really Happened</h3>
+                            <div class="price">455/- <span>599/-</span></div>
+                            <a href="mystery1.html" class="button">View Details</a>
+
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="Nobody Knows But You">
+                       
+                        <div class="image">
+                            <img src="img/mystery2.png" alt="">
+                        </div>
+                        <div class="content" data-key="32">
+                            <h3>Nobody Knows But You</h3>
+                            <div class="price">255/- <span>355/-</span></div>
+                             <a href="mystery2.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="If Something Happens To Me" >
+                        
+                        <div class="image">
+                            <img src="img/mystery3.png" alt="">
+                        </div>
+                        <div class="content" data-key="33">
+                            <h3>If Something Happens To Me</h3>
+                            <div class="price">388/-<span>488/-</span></div>
+                            <a href="mystery3.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="A flicker In The Dark">
+                        
+                        <div class="image">
+                            <img src="img/mystery4.png" alt="">
+                        </div>
+                        <div class="content" data-key="34">
+                            <h3>A flicker In The Dark</h3>
+                            <div class="price">378/-<span>455/-</span></div>
+                            <a href="mystery4.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="Eight Perfect Murders">
+                        
+                        <div class="image">
+                            <img src="img/mystrey5.png" alt="">
+                        </div>
+                        <div class="content"  data-key="35">
+                            <h3>Eight Perfect Murders</h3>
+                            <div class="price">377/- <span>477/-</span></div>
+                            <a href="mystery5.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+                    <div class="swiper-slide box" data-title="Game Of Gravestones">
+                        
+                        <div class="image">
+                            <img src="img/mystery6.png" alt="">
+                        </div>
+                        <div class="content"  data-key="36">
+                            <h3>Game Of Gravestones</h3>
+                            <div class="price">499/- <span>599/-</span></div>
+                            <a href="mystery6.html" class="button">View Details</a>
+                        </div>
+                    </div>
+        
+        
+                </div>
+        
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+        
+            </div>
+        </div>
+
+        <!------------Mystery books ends------>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+ <script src="js/book1.js"></script>
+ <script src="js/script.js"></script>
+ 
+
+
+</body>
+</html>

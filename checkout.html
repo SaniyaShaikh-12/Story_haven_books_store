@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Address Form</title>
+    <link rel="stylesheet" href="css/checkOut.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+</head>
+<body>
+    <div class="logos">
+    <a href="index.html" class="logo"><i class="fas fa-book"></i><a href ="index.html" style="font-size: 2.5rem;
+        font-weight: bold;
+        color: var(--black);">Story Haven </a>
+    </div>
+    <div class="background-video-container">
+        <video autoplay muted loop class="background-video">
+            <source src="" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+    <h1>Enter a  shipping address</h1>
+    <div class="container">
+        <form id="addressForm">
+            <div class="form-group">
+                <label for="country">Country/Region</label>
+                <select id="country" name="country">
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="United Kingdom">United Kingdom</option>
+                    <option value="Canada">Canada</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Germany">Germany</option>
+                    <option value="France">France</option>
+                    <option value="Brazil">Brazil</option>
+                    <option value="Japan">Japan</option>
+                    <option value="China">China</option>
+                    <option value="South Africa">South Africa</option>
+                    <option value="Mexico">Mexico</option>
+                    <option value="Russia">Russia</option>
+                    <option value="Italy">Italy</option>
+                    <option value="Netherlands">Netherlands</option>
+                    <option value="Spain">Spain</option>
+                    <option value="Sweden">Sweden</option>
+                    <option value="Singapore">Singapore</option>
+                    <option value="South Korea">South Korea</option>
+                    <option value="New Zealand">New Zealand</option>
+                    
+                </select>
+
+
+                
+            </div>
+            
+            <div class="form-group">
+                <label for="fullname">Full Name (First and Last name)</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="mobile">Mobile Number</label>
+                <input type="text" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="addressLine1">Flat, House no., Building, Company, Apartment</label>
+                <input type="text" id="addressLine1" name="addressLine1" placeholder="Enter your address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="addressLine2">Area, Street, Sector, Village</label>
+                <input type="text" id="addressLine2" name="addressLine2" placeholder="Enter your area" required>
+            </div>
+
+            <div class="form-group">
+                <label for="landmark">Landmark</label>
+                <input type="text" id="landmark" name="landmark" placeholder="E.g., near Apollo hospital">
+            </div>
+
+            <div class="form-group">
+                <label for="town">Town/City</label>
+                <input type="text" id="town" name="town" placeholder="Enter town/city" required>
+            </div>
+
+           
+
+            <div class="form-group">
+                <label for="instructions">Delivery instructions (optional)</label>
+                <textarea id="instructions" name="instructions" placeholder="Add preferences, notes, access codes, etc."></textarea>
+            </div>
+
+            <button type="submit">Use this address</button>
+        </form>
+
+    </div>
+ 
+    <!----Payemnt Method----->
+    <h2>Select Payment Method</h2>
+    <div id="payment-method-section">
+        <div class="form-group">
+            <label>
+                <input type="radio" name="payment" value="Credit/Debit Card" required>
+                Credit/Debit Card
+            </label>
+            <div id="card-details" class="payment-details">
+                <div class="form-group">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" name="card-number" placeholder="Enter your card number">
+                </div>
+                <div class="form-group">
+                    <label for="card-holder">Cardholder Name</label>
+                    <input type="text" id="card-holder" name="card-holder" placeholder="Enter cardholder name">
+                </div>
+                <div class="form-group">
+                    <label for="expiry-date">Expiration Date</label>
+                    <input type="month" id="expiry-date" name="expiry-date">
+                </div>
+                <div class="form-group">
+                    <label for="cvv">CVV</label>
+                    <input type="password" id="cvv" name="cvv" placeholder="Enter CVV">
+                </div>
+                <button id="place-order-card-btn" class="place-order-btn">Place Order</button>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <label>
+                <input type="radio" name="payment" value="UPI">
+                UPI
+            </label>
+            <div id="upi-details" class="payment-details">
+                <label for="upi-id">Enter UPI ID</label>
+                <input type="text" id="upi-id" name="upi-id" placeholder="example@upi">
+                <button id="place-order-upi-btn" class="place-order-btn">Place Order</button>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <label>
+                <input type="radio" name="payment" value="Net Banking">
+                Net Banking
+            </label>
+            <div id="net-banking-details" class="payment-details">
+                <label for="bank-select">Select Bank</label>
+                <select id="bank-select" name="bank">
+                    <option value="">Select a bank</option>
+                    <option value="SBI">State Bank of India</option>
+                    <option value="HDFC">HDFC Bank</option>
+                    <option value="ICICI">ICICI Bank</option>
+                    <option value="Axis">Axis Bank</option>
+                    <option value="PNB">Punjab National Bank</option>
+                </select>
+                <button id="place-order-net-btn" class="place-order-btn">Place Order</button>
+            </div>
+        </div>
+    
+        <div class="form-group">
+            <label>
+                <input type="radio" name="payment" value="Cash on Delivery">
+                Cash on Delivery (COD)
+            </label>
+        </div>
+    </div>
+    
+    
+
+        
+        
+    <div class="container">
+        
+        <div id="order-summary" style=" font-size: 20px;
+         color: var(--black); text-align: center;">
+            <h3>Order Summary</h3>
+            <div id="order-summary-items">
+            
+            </div>
+            <p><strong>Total:</strong><span id="order-summary-total">0.00</span></p>
+            <button type="button" onclick="submitOrder()">Place Order</button>
+        </div>
+    </div>
+        
+        
+    <script src="js/checkout.js"></script>
+    
+</body>
+</html>

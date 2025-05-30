@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fiction 1 book</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fiction1.css">
+    <link rel="stylesheet" href="css/wishlist.css">
+    <link rel="stylesheet"  type="text/css" href="css/lightslider.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script  type="text/javascript" src="js/lightslider.js"></script>
+
+
+
+</head>
+<body>
+
+    <!-------header section starts----->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Story Haven </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="wishlist.html" class="fas fa-heart"></a>
+            <a href="cart.html"><div id="cart-btn" class="fas fa-shopping-cart" > <span id="cart-count">0</span></div></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+ 
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html">About Us</a>
+            <a href="index.html">featured</a>
+            <a href="book1.html">Category</a>
+            <a href="index.html">Arrivals</a>
+            <a href="index.html">Testimonial</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#about" class="fas fa-about"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#categories" class="fas fa-book"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#testimonial" class="fas fa-comments"></a>
+    
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action=""http://localhost:${port}/submit" method="post"">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="username" class="box" placeholder="enter your email" id="username">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+</div>
+
+<a href="book1.html" style="font-size: 2.3rem; font-weight: bold; color: var(--black); padding: 2rem;text-decoration: underline; ">GO BACK</a>
+
+  <section>
+    <div class="container flex">
+      <div class="left" data-key="1">
+        <div class="main_image">
+          <img src="img/fiction1.png" class="slide">
+        </div>
+       
+        <div class="cart">
+           
+            <button onclick="addToCart('Black Heart',399)">Add to Cart</button>
+            <button class="wishlist-btn" onclick="addToWishlist('Black Heart', 'img/fiction1.png', 399)">
+                <i class="fa fa-heart"></i>  Wishlist
+            </button>
+        </div>
+<div class="quantity-control">
+    <label for="quantity" style="    font-size: 2rem;">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" value="1" min="1">
+</div>
+      </div>
+      <div class="right">
+        <div id="product">
+        <h3 id="productName">Black Heart</h3>
+        <h4 id="productPrice"><small>399/-</small><span>499/-</span> </h4>
+       <div class="rates">
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked "></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star" style="font-size: 1.5rem;"></i>
+        </div>
+
+        <p>Black Heart by Jenna Wood is a gripping tale of romance, betrayal, and inner conflict. The story centers on a protagonist torn between love and loyalty, navigating dark secrets and emotional turmoil. 
+            With suspenseful twists, the novel delves into the complexities of trust and the lengths one will go to protect the heart, even when it means facing the darkest parts of oneself.
+       </p>
+        <h4>Author : Jenna Wood</h4>
+        <div class="color flex1">
+            <h4>Highlights :</h4>
+            <ul class="highlights-list">
+              <li><strong>Plot Overview:</strong> A dark and twisted tale set in a world where power and loyalty come at a price.
+                 The protagonist embarks on a journey that questions the balance between love and revenge. 
+                 Magic, political intrigue, and betrayal keep readers hooked from the first page.
+              </li>
+              <li><strong>Themes :</strong>  Betrayal, revenge, forbidden love, power dynamics, moral complexity.</li>
+              <li><strong>Genre:</strong> Fiction, Dark Fantasy / Supernatural Thriller.</li>
+              <li><strong>Pages: </strong> 197 pages</li>
+              <li><strong>Publication Year:</strong> 2017</li>
+            </ul>
+            <h4>Why You’ll Love It</h4>
+            <ul class="lists" >
+              <li>Strong, morally grey characters that evolve over time.</li>
+              <li>A unique blend of dark fantasy and emotional depth.</li>
+              <li>Unexpected twists and cliffhangers.</li>
+              <li>Beautifully crafted world-building with immersive lore.</li>
+            </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="similar_products">
+    <h2 style="    font-size: 40px;
+    font-weight: bold;
+    color: var(--black);
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem">You Might Like It</h2>
+
+    <div class="swiper listProduct-slider">
+        <div class="swiper-wrapper" style="margin: 1px;">
+            <div class="swiper-slide box">
+            <div>
+            <img src="img/fiction2.png">
+            </div>
+            <a href="fiction2.html" class="btn">Buy Now</a>
+            <h3>Angel Of Death</h3>
+            <a href="#" class="price">499/- <span>599/-</span></a>
+         </div>
+
+         <div class="swiper-slide box">
+                <div>
+                <img src="img/non-fiction1.png">
+            </div>
+                <a href="nonfiction1.html" class="btn">Buy Now</a>
+                <h3>The Educational Challenge</h3>
+                <a href="#" class="price">599/- <span>799/-</span></a>
+        </div>
+            
+            <div class="swiper-slide box">
+                <div>
+                    <img src="img/fiction4.png">
+                </div>
+                    <a href="fiction7.html" class="btn">Buy Now</a>
+                    <h3>The Race Of The Blackened Nevers </h3>
+                    <a href="#" class="price">493/- <span>599/-</span></a>
+            </div>
+        
+                <div class="swiper-slide box">
+                    <div>
+                        <img src="img/fiction5.png">
+                    </div>
+                        <a href="fiction5.html" class="btn">Buy Now</a>
+                        <h3>We'll Never Know</h3>
+                        <a href="#" class="price">346/- <span>455/-</span></a>
+                </div>
+                <div class="swiper-slide box">
+                    <div>
+                        <img src="img/fiction6.png">
+                    </div>
+                        <a href="fiction6.html" class="btn">Buy Now</a>
+                        <h3>Anya And The NightinGale</h3>
+                        <a href="#" class="price">455/-<span>555/-</span></a>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <div>
+                        <img src="img/fiction7.png">
+                    </div>
+                        <a href="fiction3.html" class="btn">Buy Now</a>
+                        <h3>Frankenstein</h3>
+                        <a href="#" class="price">433/- <span>566/-</span></a>
+                </div>
+                
+                
+        </div>
+    </div>
+
+                        
+    </div>
+    <div></div>
+</div>
+<div class="cartTab">
+    <h1>Shopping Cart</h1>
+    <div class="listCart">
+        
+    </div>
+    <div class="btn">
+        <button class="close">CLOSE</button>
+        <button class="checkOut">Check Out</button>
+    </div>
+</div>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+ <script src="js/wishlist.js"></script>
+ <script src="js/script.js"></script>
+ <script src="js/fiction1.js"></script>
+    <script src="./js/cart.js"></script>
+</body>
+</html>

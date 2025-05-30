@@ -1,0 +1,206 @@
+[
+    {
+        "id":1,
+        "name": "The Eduction Challenges",
+        "price": "$15",
+        "description": "In The Education Challenges, Stephanie Wynkoop explores the complexities of modern education in a world driven by technology and innovation. The book addresses the obstacles faced by educators, students, and policymakers, offering insights into how the digital age has transformed education. Wynkoop presents both the opportunities and challenges of integrating technology into classrooms and updating curricula to meet 21st-century needs. This concise yet impactful analysis is essential reading for anyone invested in the future of learning.",
+        "image":"img/non-fiction1.png"
+},
+{
+        "id":2,
+        "name": "Renegades",
+        "price":"$15",
+        "description": "Renegades by Marissa Meyer takes you into a world where heroes and villains clash in a battle for power. Nova, an Anarchist seeking revenge, and Adrian, a Renegade fighting for justice, find their fates intertwined as secrets emerge and the lines between good and evil blur. This gripping story explores the complexities of power and identity, perfect for fans of superhero tales with depth and moral dilemmas.",
+        "image":"img/non-fiction2.png"
+},
+{
+        "id":3,
+        "name": "Lost In The Never Woods",
+        "price": "$15",
+        "description": "When children start to disappear from the town of Astoria, Wendy Darling is forced to confront her own mysterious past. Five years ago, she and her brothers vanished into the woods—only Wendy returned, with no memory of what happened. As strange events unfold, Wendy is drawn back to the woods, where she must uncover the truth to save the missing children and herself. Lost in the Never Woods is a haunting tale that blends mystery, fantasy, and a touch of darkness.",
+        "image":"img/non-fiction3.png"
+},
+{
+        "id":4,
+        "name": "The Minding Minds",
+        "price": 15,
+        "description": " Niklas Reiniger delves into the intricate workings of human consciousness, exploring the interplay between thoughts, emotions, and behavior. Through a blend of psychological insights and practical advice, Reiniger offers readers a comprehensive guide to understanding and mastering their own minds. This book provides tools for enhancing mental clarity, emotional resilience, and overall well-being, making it an invaluable resource for anyone seeking to navigate the complexities of their inner world.",
+        "image":"img/non-fiction4.png"
+},
+{
+        "id":5,
+        "name": "The Tree Of Thinking Words",
+        "price": 15,
+        "description": " by Blake Crocket is a captivating exploration of the power of language and its profound impact on human thought. Crocket intricately examines how words shape our perceptions, influence our decisions, and frame our reality. Through engaging narratives and thought-provoking insights, the book offers readers a deeper appreciation for the art of communication and the nuanced ways language affects our lives. This book is an enlightening read for anyone interested in the transformative power of words.",
+        "image":"img/non-fiction5.png"
+},
+{
+        "id":6,
+        "name": "The Finance Field",
+        "price": 15,
+        "description": "The Finance Field provides valuable insights to help you navigate the world of finance with confidence.",
+        "image":"img/non-fiction6.png"
+},
+{
+        "id":7,
+        "name": "The Black Bird Oracle",
+        "price": 15,
+        "description": " In 'The Black Bird Oracle,' Deborah Harkness weaves a spellbinding tale of magic, mystery, and ancient prophecies. The story follows a young scholar who discovers a mystical oracle that reveals hidden truths and foretells future events. As secrets unravel and dark forces emerge, the protagonist must navigate a perilous path to uncover the oracle's true power. Rich in historical detail and filled with enchanting characters, this novel offers a captivating blend of fantasy and adventure that will enthrall readers from beginning to end.",
+        "image":"img/fantasy1.png"
+},
+{
+        "id":8,
+        "name": "The Eduction Challenges",
+        "price": 15,
+        "description": "In 'The Night Ends with Fire,'' K.X. Song crafts a gripping tale of suspense and transformation. The story unfolds on a fateful night when a series of events ignites a chain reaction that changes the lives of the characters forever. With evocative prose and intense storytelling, Song explores themes of passion, conflict, and resolution. As the night progresses, secrets are revealed, alliances shift, and the characters confront their deepest fears, leading to a dramatic and unforgettable conclusion.",
+         "image":"img/fantasy2.png"
+},
+{
+        "id":9,
+        "name": "The Queen Of Nothing",
+        "price": 15,
+        "description": "In 'The Queen of Nothing,'Holly Black continues the dark and enchanting tale of the faerie world. The story follows Jude Duarte, now exiled and struggling to reclaim her power and position. As she navigates the treacherous politics of the faerie realm, Jude faces betrayal, deception, and dangerous alliances. Black's vivid storytelling and intricate world-building bring to life a captivating saga of power, revenge, and ambition, making it a must-read for fans of fantasy and intrigue.",
+        "image":"img/fantasy3.png"
+},
+{
+        "id":10,
+        "name": "Brave Heart",
+        "price": 15,
+        "description": "'Brave Heart' by Emma Hamm is a stirring tale of courage and resilience. The novel centers on a protagonist who faces daunting challenges and personal trials with unwavering determination. Set against a backdrop of conflict and adversity, the story explores themes of bravery, self-discovery, and the strength found within. Hamm's evocative writing and rich character development create a powerful narrative that inspires readers to confront their own fears and embrace their inner strength.",
+        "image":"img/fantasy4.png"
+},
+{
+        "id":11,
+        "name": "To Dream of White And Gold",
+        "price": 15,
+        "description": "In 'To Dream of White and Gold,' R.K. Hart presents a lyrical and evocative story of romance and dreams. The novel follows the journey of a character whose aspirations and desires intertwine with a poignant love story set against a richly imagined backdrop. Through poetic prose and heartfelt storytelling, Hart explores themes of hope, beauty, and the transformative power of dreams, offering readers a captivating escape into a world where white and gold symbolize both elegance and the promise of a brighter future.",
+        "image":"img/fantasy5.png"
+},
+{
+        "id":12,
+        "name": "The Hurricane War",
+        "price": 15,
+        "description": "In 'The Hurricane War,'Thea Guanzon delivers a gripping and atmospheric tale set against the backdrop of a powerful storm. The story unfolds as characters are swept into a whirlwind of conflict, survival, and personal discovery. With vivid descriptions and intense drama, Guanzon captures the chaos and beauty of the storm while delving into themes of resilience, courage, and the human spirit's ability to weather life's most challenging moments.",
+        "image":"img/non-fiction1.png"
+},
+{
+        "id":13,
+        "name": "Infinite Worlds",
+        "price": 15,
+        "description": "'Infinite Worlds' is an imaginative exploration of boundless possibilities and alternate realities. The book takes readers on a journey through diverse universes, each with its own unique rules and wonders. Through a series of interconnected stories or a grand narrative, it delves into themes of exploration, adventure, and the infinite potential of the human spirit. Richly inventive and thought-provoking, 'Infinite Worlds' invites readers to ponder the vast expanse of existence and the limitless scope of the imagination.",
+        "image":"img/sci-fi1.png"
+},
+{
+        "id":14,
+        "name": "Dune",
+        "price": 15,
+        "description": "'Dune' is a classic science fiction novel set in a distant future where noble families vie for control of the desert planet Arrakis, the only source of a valuable substance known as 'spice.' The story follows Paul Atreides, a young heir whose family is betrayed, leading him on a journey of survival, power, and prophecy. Herbert's richly detailed world-building and complex political intrigue explore themes of destiny, ecology, and the interplay between power and religion, making "Dune" a seminal work in the genre.",
+        "image":"img/sci-fi2.png"
+},
+{
+        "id":15,
+        "name": "The Warden",
+        "price": 15,
+        "description": "'The Warden' by Daniel M. Ford is a gripping fantasy novel that follows a protagonist tasked with guarding a mystical realm. As the warden, the character faces threats both external and internal, navigating political intrigue, ancient magic, and personal challenges. The book blends action, adventure, and deep character development, creating an immersive experience for readers. Ford's vivid storytelling and intricate world-building draw readers into a richly imagined universe where duty, power, and destiny collide.",
+        "image":"img/sci-fi3.png"
+},
+    {
+        "id":16,
+        "name": "The Last Watch",
+        "price": 15,
+        "description": "The Last Watch by J.S. Dewes is a science fiction novel set in a future where humanity is on the brink of collapse. The story follows a group of soldiers stationed at the edge of the known universe, tasked with guarding against an encroaching threat. As they face isolation and dwindling resources, they uncover secrets that could determine the fate of all humanity. The book combines elements of space opera with intense character development and high-stakes action.",
+        "image":"img/sci-fi4.png"
+},
+    {
+        "id":17,
+        "name": "The Expanse",
+        "price": 15,
+        "description": "he Expanse by James S.A. Corey is a space opera series set in a future where humanity has colonized the solar system. The story begins with a detective, a spaceship crew, and a conspiracy that threatens to ignite a war between Earth, Mars, and the asteroid belt. As they uncover a powerful alien technology, they must navigate political intrigue and existential threats. The series blends action, mystery, and rich world-building.",
+        "image":"img/sci-fi5.png"
+},
+    {
+        "id":18,
+        "name": "Solaris",
+        "price": 15,
+        "description": "Solaris by Stanisław Lem is a science fiction novel centered on a distant planet covered by a sentient ocean. The ocean creates physical manifestations of the protagonists' repressed memories and desires, leading to psychological and philosophical dilemmas. The story explores themes of human consciousness, the limits of human understanding, and the nature of alien intelligence.",
+        "image":"img/sci-fi6.png"
+},
+    {
+        "id":19,
+        "name": "Twisted Love",
+        "price": 15,
+        "description": "Twisted Love by Ana Huang is a contemporary romance novel about a complicated relationship between two individuals with tumultuous pasts. The story delves into themes of love, healing, and personal growth as the characters navigate their emotional struggles and evolving connection. It's part of the Twisted series, known for its steamy and emotionally charged storytelling.",
+        "image":"img/romance1.png"
+},
+    {
+        "id":20,
+        "name": "The Way I Used To Be",
+        "price": 15,
+        "description": "The Way I Used to Be by Amber Smith is a poignant young adult novel that follows Eden, a high school senior whose life changes dramatically after a traumatic event. The book explores themes of trauma, healing, and self-discovery as Eden grapples with her new reality and tries to reclaim her sense of self and her place in the world. It's a powerful and emotional read, offering a raw and honest portrayal of coping with and overcoming trauma.",
+        "image":"img/romance3.png"
+},
+{
+    "id":21,
+    "name": "I'll Always Be With You",
+    "price": 15,
+    "description": "I'll Always Be With You by Monica Murphy is a contemporary romance novel that follows the story of two individuals whose lives are intertwined by fate and circumstances. The novel explores themes of love, resilience, and personal growth as the characters navigate their relationship and the challenges they face together. It's known for its emotional depth and engaging storytelling.",
+    "image":"img/romance4.png"
+},
+{
+    "id":22,
+    "name": "It Starts With Us",
+    "price": 15,
+    "description": "It Starts With Us by Colleen Hoover is a contemporary romance novel and a sequel to It Ends with Us. The story continues the journey of Lily Bloom and her relationships, focusing on her struggles and growth as she navigates her new life and faces the challenges of reconciling her past with her present. The novel explores themes of love, healing, and personal strength, offering a deeper look into the characters' lives and choices.",
+    "image":"img/romance5.png"
+},
+{
+    "id":23,
+    "name": "It Ends With US",
+    "price": 15,
+    "description": "t Ends with Us by Colleen Hoover is a contemporary romance novel that follows Lily Bloom, a young woman who falls in love with a charming neurosurgeon, Ryle Kincaid. As their relationship develops, Lily must confront difficult truths about herself and her past, particularly related to her father's abusive behavior. The novel delves into themes of love, resilience, and the complexity of difficult decisions, offering a raw and emotional exploration of relationships and personal growth.",
+    "image":"img/romance6.png"
+},
+{
+    "id":24,
+    "name": "Tell Me What Really Happened",
+    "price": 15,
+    "description": "Tell Me What Really Happened by Chelsea Sedoti is a young adult novel that centers on the mysterious disappearance of a popular high school student, Emily. The story unfolds through the perspectives of those who knew her, revealing secrets, hidden agendas, and the complex web of relationships leading up to her disappearance. The novel explores themes of truth, deception, and the impact of secrets on a community.",
+    "image":"img/mystery1.png"
+},
+{
+    "id":25,
+    "name": "Nobody Knows But You",
+    "price": 15,
+    "description": "Nobody Knows But You by Anica Mrose Rissi is a young adult novel that tells the story of a teenage girl, who is trying to come to terms with her own truth and the complexities of her relationships. When a private journal ends up in the wrong hands, it sparks a series of events that reveal hidden secrets and personal struggles. The book explores themes of self-discovery, trust, and the impact of sharing one's inner thoughts with others.",
+    "image":"img/mystery2.png"
+},
+{
+    "id":26,
+    "name": "If Something Happens To Me",
+    "price": 15,
+    "description": "If Something Happens to Me by Alex Finlay is a gripping thriller about a young woman who discovers unsettling truths after her brother's mysterious disappearance. The novel weaves a tense narrative of suspense and danger as she uncovers secrets and confronts hidden threats. It explores themes of family, trust, and the lengths one will go to uncover the truth.",
+    "image":"img/mystery3.png"
+},
+{
+    "id":27,
+    "name": "A flicker In The Dark",
+    "price": 15,
+    "description": "A Flicker in the Dark by Stacy Willingham is a psychological thriller about Chloe Davis, a psychologist whose father was a convicted serial killer. When several young women go missing in her town, Chloe becomes entangled in a chilling investigation that forces her to confront her traumatic past. The novel delves into themes of family secrets, psychological trauma, and the search for truth amidst a web of deception and danger.",
+    "image":"img/mystery4.png"
+},
+{
+    "id":28,
+    "name": "Eight Perfect Murders",
+    "price": 15,
+    "description": "Eight Perfect Murders by Peter Swanson is a suspenseful thriller that follows Malcolm Kershaw, a bookstore owner and mystery aficionado who becomes embroiled in a real-life murder investigation. The plot thickens when a series of recent murders mirrors a list of perfect crimes from classic detective fiction that Malcolm had compiled years earlier. As he is drawn into the investigation, he must confront his own past and unravel the truth behind the killings. The novel explores themes of obsession, deception, and the boundaries between fiction and reality.",
+    "image":"img/mystrey5.png"
+},
+{
+    "id":29,
+    "name": "Game Of Gravestones",
+    "price": 15,
+    "description": "Game of Gravestones by Jess Lloyd is a mystery novel that blends humor with suspense. The story follows a group of amateur sleuths who are drawn into a murder investigation during a local historical reenactment. As they delve deeper into the case, they uncover secrets and face danger, all while navigating their quirky town and the challenges of their own lives. The novel combines a cozy mystery vibe with a playful and engaging narrative.",
+    "image":"img/romance2.png"
+}
+];
+export default products;

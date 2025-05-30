@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard- Story Haven Books Store</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="profile">
+                    <div class="profile-image">
+                        <img src="../img/logo (2).jpeg" alt="Profile" class="avatar">
+                    </div>
+                    <div class="profile-info">
+                        <h3>Saniya</h3>
+                        <p>Admin</p>
+                    </div>
+                </div>
+                <button class="close-menu" id="closeMenu">
+                    <i class="fa-solid fa-times"></i>
+                </button>
+            </div>
+
+            <nav class="sidebar-nav">
+                <ul>
+                    <li>
+                        <a href="#" class="nav-item">
+                            <i class="fa-solid fa-book"></i>
+                            <span>ALL</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item active">
+                            <i class="fa-solid fa-box"></i>
+                            <span>New</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">
+                            <i class="fa-solid fa-certificate"></i>
+                            <span>Propular</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">
+                            <i class="fa-solid fa-chart-line"></i>
+                            <span>Analytics</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-item">
+                            <i class="fa-solid fa-users"></i>
+                            <span>People</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </aside>
+
+        <div class="overlay" id="overlay"></div>
+
+        <main class="main-content">
+            <header class="content-header">
+                <h1>Products</h1>
+                <div class="search-container">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" placeholder="Search">
+                    <div class="notification-icon">
+                        <i class="fa-regular fa-bell"></i>
+                        <span class="notification-badge">0</span>
+                    </div>
+                </div>
+            </header>
+
+            <div class="filters">
+                <div class="filter-group">
+                    <div class="filter-button active">
+                        <i class="fa-solid fa-th"></i>
+                    </div>
+                    <div class="filter-button">
+                        <i class="fa-solid fa-list"></i>
+                    </div>
+                </div>
+
+                <button class="create-button">Create product</button>
+            </div>
+
+            <div class="published-info">
+                <p></p>
+            </div>
+
+            <div class="course-grid">
+                <!-- Course Card 1 -->
+                <div class="course-card yellow">
+                    <div class="card-header">
+                        <span class="category">USERS</span>
+                        <a href="" class="btn">see more</a>
+                    </div>
+                
+                    <div class="card-image">
+                        <img src="../img/users.jpeg" alt="Lamp" class="course-icon">
+                    </div>
+                </div>
+
+                <!-- Course Card 2 -->
+                <div class="course-card pink">
+                    <div class="card-header">
+                        <span class="category">PRODUCTS</span>
+                        <a href="../admin Dashboard/addproducts.html" class="btn">Add</a>
+                    </div>
+                    <div class="card-image">
+                        <img src="../img/products.jpeg" alt="Presentation" class="course-icon">
+                    </div>
+                </div>
+
+                <!-- Course Card 3 -->
+                <div class="course-card purple">
+                    <div class="card-header">
+                        <span class="category">ORDER HISTORY</span>
+                        <a href="../admin Dashboard/orderhistory.html" class="btn">see more</a>
+                    </div>
+                    <div class="card-image">
+                        <img src="../img/order history.jpeg" alt="Brain" class="course-icon">
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>

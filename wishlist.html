@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link rel="stylesheet" href="css/wishlist.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/wishlist.js"></script>
+</head>
+<body>
+    <!-------header section starts----->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Story Haven </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="wishlist.html" class="fas fa-heart"></a>
+           <a href="cart.html"><div id="cart-btn" class="fas fa-shopping-cart" > <span id="cart-count">0</span></div></a>
+            <div id="login-btn" class="fas fa-user"></div>
+            
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About Us</a>
+            <a href="#featured">featured</a>
+            <a href="book1.html">Category</a>
+            <a href="#arrivals">Arrivals</a>
+            <a href="#testimonial">Testimonial</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#about" class="fas fa-about"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#categories" class="fas fa-book"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#testimonial" class="fas fa-comments"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="http://localhost:5500/submit" method="post">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="text" name="username" class="box" placeholder="enter your email" id="username">
+        <span>email</span>
+        <input type="email" name="email" class="box" placeholder="enter your email" id="email">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="signin.html">create one</a></p>
+    </form>
+</div>
+    <h1>Your Wishlist</h1>
+    <div id="wishlist-container"></div>
+    <a href="index.html" class="btn">Back to Shop</a>
+
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
+

@@ -1,0 +1,41 @@
+<!---Order History Html ---->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Order History</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="orderhistory.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    
+    <div class="main-content">
+      <h1>Order History</h1>
+      <div class="table-container">
+        <table id="orders-table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Full Name</th>
+              <th>Mobile</th>
+              <th>Address</th>
+              <th>Payment Method</th>
+              <th>Total</th>
+              <th>Created At</th>
+            </tr>
+          </thead>
+          <tbody id="order-list">
+            <!-- Orders will be populated here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="orderhistory.js"></script>
+</body>
+</html>

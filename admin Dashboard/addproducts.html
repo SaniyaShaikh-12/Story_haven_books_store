@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - Add Books</title>
+    <link rel="stylesheet" href="addproducts.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h2>📚 Add New Book</h2>
+        <form id="product-form">
+            <label for="title">Book Title:</label>
+            <input type="text" id="title" required>
+
+            <label for="price">Price ($):</label>
+            <input type="number" id="price" step="0.01" required>
+
+            <label for="original_price">Original Price ($):</label>
+            <input type="number" id="original_price" step="0.01" required>
+
+            <label for="image_url">Image URL:</label>
+            <input type="text" id="image_url" required>
+
+            <label for="rating">Rating (0-5):</label>
+            <input type="number" id="rating" step="0.1" min="0" max="5" required>
+
+            <button type="submit">Add Book</button>
+        </form>
+
+        <h2>📖 Book List</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Price</th>
+                    <th>Original Price</th>
+                    <th>Image</th>
+                    <th>Rating</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="book-list">
+                <!-- Books will be dynamically inserted here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="addproducts.js"></script>
+</body>
+</html>

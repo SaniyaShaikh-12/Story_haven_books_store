@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Login Page</title>
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="left-panel">
+      <div class="logo">
+        <i class="fa-solid fa-mountain"></i>
+      </div>
+      <div class="welcome-text">
+        <h1>Welcome<br>Back!</h1>
+      </div>
+    </div>
+    <div class="right-panel">
+      <div class="login-container">
+        <h2>Admin Login</h2>
+        <p class="subtitle">Welcome back! Please login to your account.</p>
+        
+        <form id="login-form">
+          <div class="form-group">
+            <label for="username">User Name</label>
+            <input type="text" id="username" placeholder="Username">
+          </div>
+          
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Password">
+            <span class="error-message" id="password-error"></span>
+          </div>
+          
+          <div class="form-options">
+            <div class="remember-me">
+              <input type="checkbox" id="remember" checked>
+              <label for="remember">Remember Me</label>
+            </div>
+          </div>
+          <button type="submit">Login</button>
+
+        </form>
+        
+        
+      </div>
+    </div>
+  </div>
+
+
+  <script>
+    document.getElementById("login-form").addEventListener("submit", async function(event) {
+        event.preventDefault(); // Prevent form from reloading the page
+    
+        const username = document.getElementById("username").value;
+        const password = document.getElementById("password").value;
+    
+        const response = await fetch("http://localhost:5001/admin/login", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({ username, password })
+        });
+    
+        const data = await response.json();
+    
+        if (response.ok) {
+            alert("Login successful!");
+            window.location.href = "dashboard.html"; // Redirect to admin dashboard
+        } else {
+            document.getElementById("password-error").innerText = data.error;
+        }
+    });
+    </script>
+    
+
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mystery 6 book</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fiction1.css">
+    <link rel="stylesheet"  type="text/css" href="css/lightslider.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script  type="text/javascript" src="js/lightslider.js"></script>
+
+
+
+</head>
+<body>
+
+    <!-------header section starts----->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Story Haven </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="cart.html"><div id="cart-btn" class="fas fa-shopping-cart" > <span id="cart-count">0</span></div></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+ 
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="index.html">Home</a>
+            <a href="index.html">About Us</a>
+            <a href="index.html">featured</a>
+            <a href="book1.html">Category</a>
+            <a href="index.html">Arrivals</a>
+            <a href="index.html">Testimonial</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#about" class="fas fa-about"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#categories" class="fas fa-book"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#testimonial" class="fas fa-comments"></a>
+    
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action=""http://localhost:${port}/submit" method="post"">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="username" class="box" placeholder="enter your email" id="username">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+</div>
+
+<a href="mystery5.html" style="font-size: 2.3rem; font-weight: bold; color: var(--black); padding: 2rem;text-decoration: underline; ">GO BACK</a>
+  <section>
+    <div class="container flex">
+      <div class="left" data-key="1">
+        <div class="main_image">
+          <img src="img/mystery6.png" class="slide">
+        </div>
+        
+        <div class="cart">
+            <button>Buy Now</button>            
+            <button onclick="addToCart('Game Of Gravestones', 499)">Add to Cart</button>
+        </div>
+<div class="quantity-control">
+    <label for="quantity" style="font-size: 2rem;">Quantity:</label>
+    <input type="number" id="quantity" name="quantity" value="1" min="1">
+</div>
+      </div>
+      <div class="right">
+        <div id="product">
+        <h3 id="productName">Game Of Gravestones</h3>
+        <h4 id="productPrice"><small>499/-</small><span> 599/-</span> </h4>
+       <div class="rates">
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star checked "></i>
+        <i class="fa fa-star checked"></i>
+        <i class="fa fa-star" style="font-size: 1.5rem;"></i>
+        </div>
+
+        <p>
+            "Game of Gravestones" by Gena Showalter and Lill Monroe is a fantasy novel filled with action, intrigue, and romance. It is part of the "Royal House of Shadows" series, featuring a world where magic, revenge, and destiny intertwine. The story follows strong-willed characters who must face their darkest fears and dangerous enemies while navigating the perils of love and loyalty.
+        </p>
+        <h4>Author : Gena Showalter lill Monroe </h4>
+        <div class="color flex1">
+            <h4>Highlights :</h4>
+            <ul class="highlights-list">
+              <li><strong>Plot Overview:</strong> The protagonists embark on a perilous quest to reclaim their kingdom and fulfill their destiny, battling against evil forces and dealing with personal challenges along the way.
+              </li>
+              <li><strong>Themes :</strong>  Destiny, power struggles, revenge, and love in a magical world..</li>
+              <li><strong>Genre:</strong> Fantasy, Paranormal Romance</li>
+              <li><strong>Pages: </strong> 320 pages</li>
+              <li><strong>Publication Year:</strong> 2017</li>
+            </ul>
+            <h4>Why You'll Love It</h4>
+            <ul class="lists" >
+              <li>A mix of dark fantasy and steamy romance.</li>
+              <li> Complex, strong characters with magical abilities and epic destinies.</li>
+              <li>  Fast-paced, action-packed narrative with a paranormal twist.</li>
+              <li> Appeals to fans of fantasy worlds with high stakes and emotional depth.</li>
+            </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="similar_products">
+    <h2 style="    font-size: 40px;
+    font-weight: bold;
+    color: var(--black);
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem">You Might Like It</h2>
+
+    <div class="swiper listProduct-slider">
+        <div class="swiper-wrapper" style="margin: 1px;">
+            <div class="swiper-slide box">
+            <div>
+            <img src="img/fiction1.png">
+            </div>
+            <a href="fiction1.html" class="btn">Buy Now</a>
+            <h3>Angel Of Death</h3>
+            <a href="#" class="price">499/- <span>599/-</span></a>
+         </div>
+
+         <div class="swiper-slide box">
+                <div>
+                <img src="img/sci-fi1.png">
+            </div>
+                <a href="sci-fiction1.html" class="btn">Buy Now</a>
+                <h3>Infinite Words</h3>
+                <a href="#" class="price">255/-<span>355/-</span></a>
+        </div>
+            
+            <div class="swiper-slide box">
+                <div>
+                    <img src="img/non-fiction2.png">
+                </div>
+                    <a href="nonfiction2.html" class="btn">Buy Now</a>
+                    <h3>Renegades</h3>
+                    <a href="#" class="price">645/- <span>745/-</span></a>
+            </div>
+        
+                <div class="swiper-slide box">
+                    <div>
+                        <img src="img/non-fiction3.png">
+                    </div>
+                        <a href="nonfiction4.html" class="btn">Buy Now</a>
+                        <h3>Lost In The Never Woods</h3>
+                        <a href="#" class="price">455/- <span>555/-</span></a>
+                </div>
+                <div class="swiper-slide box">
+                    <div>
+                        <img src="img/non-fiction4.png">
+                    </div>
+                        <a href="nonfiction3.html" class="btn">Buy Now</a>
+                        <h3>The Minding Minds</h3>
+                        <a href="#" class="price">345/- <span>445/-</span></a>
+                </div>
+                
+                <div class="swiper-slide box">
+                    <div>
+                        <img src="img/fantasy5.png">
+                    </div>
+                        <a href="fantasy5.html" class="btn">Buy Now</a>
+                        <h3>To Dream Of White and Gold</h3>
+                        <a href="#" class="price">445/-<span>555/-</span></a>
+                </div>
+                
+                
+        </div>
+    </div>
+                        
+    </div>
+    <div></div>
+</div>
+<div class="cartTab">
+    <h1>Shopping Cart</h1>
+    <div class="listCart">
+        
+    </div>
+    <div class="btn">
+        <button class="close">CLOSE</button>
+        <button class="checkOut">Check Out</button>
+    </div>
+</div>
+     
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+ <script src="js/script.js"></script>
+ <script src="js/fiction1.js"></script>
+    <script src="./js/cart.js"></script>
+</body>
+</html>

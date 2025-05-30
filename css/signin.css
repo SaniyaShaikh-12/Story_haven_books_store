@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+.Signup-form-container .logo{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color:white;
+}
+
+.Signup-form-container .logo i{
+    color:var(--green);
+}
+.Signup-form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    z-index: 10000;
+    height:100%;
+    width:100%;
+}
+.Signup-form-container{
+    background-image: url(../image/about\ us\ .jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.Signup-form-container.active{
+    right:0;
+}
+
+.Signup-form-container form{
+    background:#000000a3;
+    border:var(--border);
+    width:50%;
+    padding:10rem;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    margin:2rem;
+}
+
+.Signup-form-container form h3{
+    font-size: 4rem;
+    text-transform: uppercase;
+    color:white;
+    text-align: center;
+}
+
+.Signup-form-container form span{
+    display: block;
+    font-size: 2rem;
+    padding-top: 1rem;
+    color: white;
+}
+
+
+.input-group select {
+    border: none;
+    padding: 8px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.input-group input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.Signup-form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.Signup-form-container form .box{
+    width: 100%;
+    margin:.7rem 0;
+    font-size: 2rem;
+    border:var(--border);
+    border-radius: .5rem;
+    padding:1rem 1.2rem;
+    color:var(--black);
+    text-transform: none;
+}
+
+.Signup-form-container form .checkbox{
+    display:flex;
+    align-items: center;
+    gap:.5rem;
+    padding:1rem 0;
+}
+
+.Signup-form-container form .checkbox label{
+    font-size: 2rem;
+    color:white;
+    cursor: pointer;
+}
+
+.Signup-form-container form .btn{
+    text-align: center;
+    width:100%;
+    margin:1.5rem 0;
+}
+
+.Signup-form-container form p{
+    padding-top: .8rem;
+    color:white;
+    font-size: 2rem;
+}
+
+.Signup-form-container form p a{
+    color:white;
+    text-decoration: underline;
+}
+.footer_box {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    color: white;
+    font-size: 12px;
+}
+.Signup-form-container #close-login-btn{
+    position: absolute;
+    top:1.5rem; right:2.5rem;
+    font-size: 5rem;
+    color:var(--black);
+    cursor: pointer;
+}
