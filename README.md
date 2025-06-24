@@ -63,14 +63,7 @@ node server.js
 ### ⭐ Contribution & Feedback
 
 Open to suggestions and improvements!
-Feel free to fork, star, and pull request.
+Please feel free to ask for a fork, a star, and a pull request.
 
----
-
-Let me know if you want to:
-
-* Add installation screenshots
-* Include deployment instructions
-* Use Markdown badges for styling (like `Node.js`, `MySQL`, etc.)
 
 
